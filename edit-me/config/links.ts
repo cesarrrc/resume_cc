@@ -1,35 +1,29 @@
 import { CMSLink } from '@config-types/cms-link';
 import {
-  SiBluesky,
   SiGithub,
   SiInstagram,
   SiLinkedin,
-  SiNpm,
+  SiFacebook,
 } from '@icons-pack/react-simple-icons';
 
 export const links: CMSLink[] = [
   {
-    href: 'https://www.linkedin.com',
+    href: 'https://www.linkedin.com/in/cisneros-cesar/',
     icon: SiLinkedin,
     title: 'LinkedIn',
   },
   {
-    href: 'https://github.com',
+    href: 'https://github.com/cesarrrc',
     icon: SiGithub,
     title: 'GitHub',
   },
   {
-    href: 'https://www.npmjs.com',
-    icon: SiNpm,
-    title: 'NPM',
+    href: 'https://www.facebook.com/cesar.cisneros/',
+    icon: SiFacebook,
+    title: 'Facebook',
   },
   {
-    href: 'https://bsky.app',
-    icon: SiBluesky,
-    title: 'Bluesky',
-  },
-  {
-    href: 'https://www.instagram.com',
+    href: 'https://www.instagram.com/cesarrrc/',
     icon: SiInstagram,
     title: 'Instagram',
   },
